@@ -1,0 +1,16 @@
+/*You can set the class of your css code in the html file and set the rulles for it in the css file by starting with a . before the name of the class from the css file*/
+/*e.g the .bacon or .brocolli example used by Angela Yu in her video on class selectors*/
+/*Tag Selectors*/
+h1{
+  color: red;
+  font-size: 20px;
+}
+/*Class Selectors*/
+.flatter{
+  background-color: blue
+}
+/*ID Selectors: The Id is set from the html using id='*****' after a tag in the html code*/
+#definer{
+  font-size: 90px
+}
+/*Specificity is the determinant of overiding in css code id is the most specific of all followed by class then tag*/
